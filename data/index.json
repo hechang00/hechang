@@ -1,0 +1,27 @@
+{
+  "pages": {
+    "default": {
+      "parent": "",
+      "roots": [],
+      "type": "view",
+      "created": "/* 业务逻辑开始 let's do something*/",
+      "mounted": "/* 业务逻辑开始 let's do something*/",
+      "beforeDestroy": "/* 业务逻辑开始 let's do something*/",
+      "activated": "/* 业务逻辑开始 let's do something*/",
+      "deactivated": "/* 业务逻辑开始 let's do something*/",
+      "updated": "/* 业务逻辑开始 let's do something*/",
+      "styles": "",
+      "datas": {},
+      "methodDict": {}
+    }
+  },
+  "trashPages": {},
+  "views": {},
+  "binds": {},
+  "cgi": {},
+  "jsCodeDict": {},
+  "thirdScriptDict": {},
+  "time": 0,
+  "version": "4.2.0",
+  "styles": ""
+}

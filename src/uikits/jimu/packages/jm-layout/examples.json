@@ -1,0 +1,471 @@
+{
+  "id": "layout",
+  "name": "布局组件示例",
+  "columnLayout": {
+    "name": "列布局",
+    "value": [{
+        "name": "单列布局",
+        "img": "layout10",
+        "props": {
+          "justify": "row",
+          "align": "flex-start",
+          "direction": "flex-start"
+        }
+      },
+      {
+        "name": "双列布局",
+        "img": "layout11",
+        "props": {
+          "justify": "row",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          },
+          {
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          }
+        ]
+      },
+      {
+        "name": "三列布局",
+        "img": "layout12",
+        "props": {
+          "justify": "row",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+             "align": "flex-start",
+            "direction": "flex-start"
+            }
+          },
+          {
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          },
+          {
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "rawLayout": {
+    "name": "行布局",
+    "value": [{
+        "name": "单行布局",
+        "img": "layout20",
+        "props": {
+          "justify": "row",
+          "align": "flex-start",
+          "direction": "flex-start"
+        }
+      },
+      {
+        "name": "双行布局",
+        "img": "layout21",
+        "props": {
+          "justify": "column",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          },
+          {
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          }
+        ]
+      },
+      {
+        "name": "三行布局",
+        "img": "layout22",
+        "props": {
+            "justify": "column",
+            "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "row",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "complexLayout": {
+    "name": "复合布局",
+    "value": [{
+        "name": "headerMain",
+        "img": "layout30",
+        "props": {
+          "justify": "column",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "flex": "1",
+              "bgcolor": "#B3C0D1",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "row",
+              "flex": "5",
+              "minHeight": 500,
+              "bgcolor": "#E9EEF3",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          }
+        ]
+      },
+      {
+        "name": "headerMainFooter",
+        "img": "layout31",
+        "props": {
+          "justify": "column",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "flex": "1",
+              "bgcolor": "#B3C0D1",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+          },
+          {
+            "props": {
+              "row": "row",
+              "flex": "5",
+              "minHeight": 500,
+              "bgcolor": "#E9EEF3",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "row": "row",
+              "flex": "1",
+              "bgcolor": "#B3C0D1",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          }
+        ]
+      },
+      {
+        "name": "asideMain",
+        "img": "layout32",
+        "props": {
+          "justify": "row",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "flex": "1",
+              "bgcolor": "#D3DCE6",
+              "minHeight": 500,
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "row",
+              "flex": "5",
+              "minHeight": 500,
+              "bgcolor": "#E9EEF3",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          }
+        ]
+      },
+      {
+        "name": "headerAsideMain",
+        "img": "layout33",
+        "props": {
+          "justify": "column",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "flex": "1",
+              "bgcolor": "#B3C0D1",
+              "align": "flex-start",
+          "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "row",
+              "flex": "5",
+              "minHeight": 500,
+              "bgcolor": "#E9EEF3",
+              "align": "stretch"
+            },
+
+            "children": [{
+                "props": {
+                  "justify": "row",
+                  "flex": "1",
+                  "bgcolor": "#D3DCE6",
+                  "minHeight": 500,
+                  "align": "flex-start",
+                  "direction": "flex-start"
+                }
+              },
+              {
+                "props": {
+                  "justify": "row",
+                  "flex": "5",
+                  "bgcolor": "#E9EEF3",
+                  "minHeight": 500,
+                  "align": "flex-start",
+                  "direction": "flex-start"
+                }
+              }
+            ]
+
+          }
+        ]
+      },
+      {
+        "name": "headerAsideMainFooter",
+        "img": "layout34",
+        "props": {
+          "justify": "column",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "flex": "1",
+              "bgcolor": "#B3C0D1",
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "row",
+              "flex": "5",
+              "minHeight": 500,
+              "bgcolor": "#E9EEF3",
+              "align": "stretch"
+            },
+
+            "children": [{
+                "props": {
+                  "justify": "row",
+                  "flex": "1",
+                  "bgcolor": "#D3DCE6",
+                  "minHeight": 600,
+                  "align": "flex-start",
+                  "direction": "flex-start"
+                }
+              },
+              {
+                "props": {
+                  "justify": "column",
+                  "flex": "5",
+                  "bgcolor": "#E9EEF3",
+                  "minHeight": 500,
+                  "align": "stretch"
+                },
+                "children": [{
+                    "props": {
+                      "justify": "row",
+                      "flex": "1",
+                      "bgcolor": "#E9EEF3",
+                      "minHeight": 500,
+                      "align": "flex-start",
+                      "direction": "flex-start"
+                    }
+                  },
+                  {
+                    "props": {
+                      "justify": "row",
+                      "flex": "5",
+                      "bgcolor": "#B3C0D1",
+                      "minHeight": 60,
+                      "align": "flex-start",
+                      "direction": "flex-start"
+                    }
+                  }
+                ]
+              }
+            ]
+
+          }
+        ]
+      },
+      {
+        "name": "asideHeaderMain",
+        "img": "layout35",
+        "props": {
+          "justify": "row",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "flex": "1",
+              "bgcolor": "#D3DCE6",
+              "minHeight": 600,
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "column",
+              "flex": "5",
+              "align": "stretch"
+            },
+            "children": [{
+                "props": {
+                    "justify": "row",
+                    "flex": "1",
+                    "bgcolor": "#B3C0D1",
+                    "minHeight": 60,
+                    "align": "flex-start",
+                    "direction": "flex-start"
+                }
+              },
+              {
+                "props": {
+                    "justify": "row",
+                    "flex": "5",
+                    "bgcolor": "#E9EEF3",
+                    "minHeight": 500,
+                    "align": "flex-start",
+                    "direction": "flex-start"
+                }
+              }
+            ]
+
+          }
+        ]
+      },
+      {
+        "name": "asideHeaderMainFooter",
+        "img": "layout36",
+        "props": {
+          "justify": "row",
+          "align": "stretch"
+        },
+        "children": [{
+            "props": {
+              "justify": "row",
+              "flex": "1",
+              "bgcolor": "#D3DCE6",
+              "minHeight": 680,
+              "align": "flex-start",
+              "direction": "flex-start"
+            }
+
+          },
+          {
+            "props": {
+              "justify": "column",
+              "flex": "5",
+              "align": "stretch"
+            },
+            "children": [{
+                "props": {
+                  "justify": "row",
+                  "flex": "1",
+                  "bgcolor": "#B3C0D1",
+                  "minHeight": 60,
+                  "align": "flex-start",
+                  "direction": "flex-start"
+                }
+              },
+              {
+                "props": {
+                  "justify": "row",
+                  "flex": "5",
+                  "bgcolor": "#E9EEF3",
+                  "minHeight": 500,
+                  "align": "flex-start",
+                  "direction": "flex-start"
+                }
+              },
+              {
+                "props": {
+                  "justify": "row",
+                  "flex": "1",
+                  "bgcolor": "#B3C0D1",
+                  "minHeight": 60,
+                  "align": "flex-start",
+                  "direction": "flex-start"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

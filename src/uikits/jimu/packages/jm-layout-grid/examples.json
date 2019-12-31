@@ -1,0 +1,414 @@
+{
+  "gridLayout": {
+    "name": "栅格块",
+    "value": [
+      {
+        "id": "jm-layout-grid",
+        "name": "宽屏2块",
+        "img": "layout1_2",
+        "props": {
+          "style_flex": 1,
+          "justify": "row",
+          "bgcolor": "rgba(240, 242, 245, 0)",
+          "style_marginLeft": "0px",
+          "style_marginRight": "0px",
+          "style_marginTop": "0px",
+          "style_marginBottom": "0px",
+          "padding": "0px 12px 0px 12px",
+          "gutter": 24
+        },
+        "children": [
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/2",
+              "span": 12,
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 24,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/2",
+              "span": 12,
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 24,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          }
+        ]
+      },
+      {
+        "id": "jm-layout-grid",
+        "name": "宽屏1块",
+        "img": "layout1_1",
+        "props": {
+          "style_flex": 1,
+          "justify": "row",
+          "bgcolor": "rgba(240, 242, 245, 0)",
+          "style_marginLeft": "0px",
+          "style_marginRight": "0px",
+          "style_marginTop": "0px",
+          "style_marginBottom": "0px"
+        },
+        "children": [
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "span": 24,
+              "xl": 24,
+              "lg": 24,
+              "md": 24,
+              "sm": 24,
+              "xs": 24,
+              "style_marginLeft": "24px",
+              "style_marginRight": "24px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          }
+        ]
+      },
+      {
+        "id": "jm-layout-grid",
+        "name": "宽屏3块",
+        "img": "layout1_3",
+        "props": {
+          "style_flex": 1,
+          "justify": "row",
+          "bgcolor": "rgba(240, 242, 245, 0)",
+          "style_marginLeft": "0px",
+          "style_marginRight": "0px",
+          "style_marginTop": "0px",
+          "style_marginBottom": "0px",
+          "padding": "0px 12px 0px 12px",
+          "gutter": 24
+        },
+        "children": [
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/3",
+              "span": 8,
+              "xl": 8,
+              "lg": 8,
+              "md": 8,
+              "sm": 24,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/3",
+              "span": 8,
+              "xl": 8,
+              "lg": 8,
+              "md": 8,
+              "sm": 24,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/3",
+              "span": 8,
+              "xl": 8,
+              "lg": 8,
+              "md": 8,
+              "sm": 24,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          }
+        ]
+      },
+      {
+        "id": "jm-layout-grid",
+        "name": "宽屏4块",
+        "img": "layout1_4",
+        "props": {
+          "style_flex": 1,
+          "justify": "row",
+          "bgcolor": "rgba(240, 242, 245, 0)",
+          "style_marginLeft": "0px",
+          "style_marginRight": "0px",
+          "style_marginTop": "0px",
+          "style_marginBottom": "0px",
+          "padding": "0px 12px 0px 12px",
+          "gutter": 24
+        },
+        "children": [
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/4",
+              "span": 6,
+              "xl": 6,
+              "lg": 6,
+              "md": 12,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/4",
+              "span": 6,
+              "xl": 6,
+              "lg": 6,
+              "md": 12,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/4",
+              "span": 6,
+              "xl": 6,
+              "lg": 6,
+              "md": 12,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/4",
+              "span": 6,
+              "xl": 6,
+              "lg": 6,
+              "md": 12,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          }
+        ]
+      },
+      {
+        "id": "jm-layout-grid",
+        "name": "宽屏6块",
+        "img": "layout1_6",
+        "props": {
+          "style_flex": 1,
+          "justify": "row",
+          "bgcolor": "rgba(240, 242, 245, 0)",
+          "style_marginLeft": "0px",
+          "style_marginRight": "0px",
+          "style_marginTop": "0px",
+          "style_marginBottom": "0px",
+          "padding": "0px 12px 0px 12px",
+          "gutter": 24
+        },
+        "children": [
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/6",
+              "span": 4,
+              "xl": 4,
+              "lg": 4,
+              "md": 8,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/6",
+              "span": 4,
+              "xl": 4,
+              "lg": 4,
+              "md": 8,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/6",
+              "span": 4,
+              "xl": 4,
+              "lg": 4,
+              "md": 8,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/6",
+              "span": 4,
+              "xl": 4,
+              "lg": 4,
+              "md": 8,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/6",
+              "span": 4,
+              "xl": 4,
+              "lg": 4,
+              "md": 8,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          },
+          {
+            "id": "jm-layout-grid-col",
+            "props": {
+              "colWidth": "1/6",
+              "span": 4,
+              "xl": 4,
+              "lg": 4,
+              "md": 8,
+              "sm": 12,
+              "xs": 24,
+              "style_marginLeft": "0px",
+              "style_marginRight": "0px",
+              "style_marginTop": "24px",
+              "style_marginBottom": "0px",
+              "wrap": "nowrap",
+              "justify": "column",
+              "align": "stretch",
+              "paddingBottom": "12px"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

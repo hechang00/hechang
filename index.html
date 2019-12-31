@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="height:100%">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    
+    <title>testonline</title>
+    <link rel="shortcut icon" href=static/images/favicon.ico type=image/x-icon>
+    <link rel="stylesheet" href="static/dll/vendor.dll.css">
+    <link rel="stylesheet" data-name="vs/editor/editor.main" href="static/js/monaco/min/vs/editor/editor.main.css">
+    <link rel="stylesheet" href="static/js/mavon-editor/css/index.css">
+  </head>
+  <body style="height:100%">
+    <script src="static/js/mavon-editor/mavon-editor.js"></script>
+    <div id="app" style="height:100%"></div>
+    <!-- built files will be auto injected -->
+    <script src="static/dll/vendor.dll.js"></script>
+    <script>
+      var require = {
+        paths: {
+          'vs': 'static/js/monaco/min/vs'
+        }
+      };
+    </script>
+    <script src="static/js/monaco/min/vs/loader.js"></script>
+    <script src="static/js/monaco/min/vs/editor/editor.main.nls.js"></script>
+    <script src="static/js/monaco/min/vs/editor/editor.main.js"></script>
+  </body>
+</html>

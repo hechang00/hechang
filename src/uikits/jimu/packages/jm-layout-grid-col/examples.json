@@ -1,0 +1,14 @@
+{
+    "gridLayout": {
+        "name": "栅格列",
+        "value": [{
+          "name": "栅格列",
+          "img": "g_layout",
+          "props": {
+            "justify": "row",
+            "bgcolor": "#ffffff"
+          }
+        }
+      ]
+      }
+}
